@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^(c-nhin8#fk4tcdtp0&n_d%m+d07f!fwgcg%$=u)q2l$p4+e)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False #True
+DEBUG = True #True
 
 ALLOWED_HOSTS = [] #[login.xxx.com]
 
@@ -74,12 +74,7 @@ WSGI_APPLICATION = 'Recruto.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+
 
 
 # Password validation
